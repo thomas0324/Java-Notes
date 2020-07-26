@@ -186,4 +186,4 @@ Each house you build has an address (a physical location). In other words if you
 
 You can copy that reference as many times as you like but there is still just one house.
 
-https://github.com/thomas0324/Java-Notes/issues/1#issue-665736479
+![image](https://user-images.githubusercontent.com/60317305/88474946-e939aa00-cf5d-11ea-97be-80b3e3362db5.png)
