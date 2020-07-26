@@ -187,3 +187,17 @@ Each house you build has an address (a physical location). In other words if you
 You can copy that reference as many times as you like but there is still just one house.
 
 ![image](https://user-images.githubusercontent.com/60317305/88474946-e939aa00-cf5d-11ea-97be-80b3e3362db5.png)
+
+### This and Super keywords
+
+- Super
+
+The super keyword is used to access or call the parent class members (variables and methods)
+
+![image](https://user-images.githubusercontent.com/60317305/88475316-4daa3880-cf61-11ea-8f5a-812112948f2d.png)
+
+- This 
+
+The this keyword is used to call the current class members (variables and methods). This is required when we have a parameter with the same name as an instance variable
+
+![image](https://user-images.githubusercontent.com/60317305/88475227-83025680-cf60-11ea-81db-2394c359a1f9.png)
