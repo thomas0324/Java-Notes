@@ -116,11 +116,11 @@ Terminology: public class [parent class] extends [child class]
             }
             
             public void eat(){
-                  System.out.println("It is eating") ; 
+                  System.out.println("Animal.eat() called") ; 
             }
             
-            public void move(){
-                  System.out.println("It is moving") ; 
+            public void move(int speed){
+                  System.out.println("It is moving at " + speed) ; 
             }
       }
       
@@ -148,9 +148,15 @@ Terminology: public class [parent class] extends [child class]
             }
             
             @override
-            public void move() {
-                  System.out.println("It is running!!") ;
+            public void eat() {
+                  System.out.println("Dog.eat() called!!") ;
             }
+
+            public void walk() {
+                  System.out.println("Dog.walk() called") ;
+                  super.move() ; // super means calling the method from the parent class
+            }
+            
  
 - Main.java 
 
@@ -160,7 +166,23 @@ Terminology: public class [parent class] extends [child class]
                   Animal animal = new Animal("Animal", 1, 1, 5, 5) ;
                   
                   Dog dog = new Dog("York", 1, 1, 1, 1, 1, 1, 1, 1, "silky") ;
-                  dog.eat() ; // dog class is the child class of animal
-                  dog.move() ; // It prints out the move method inside the dog class
+                  dog.eat() ; // prints out "Dog.eat() called!!" 
             }
       }
+
+### Reference, Object, Instance and class
+
+- Class
+
+A class is basically a blueprint for a house, using the blueprint(plan) we can build as many houses as we like based on those plans.
+
+- Instance
+
+Each house you build is an object also known as an instance
+
+- Reference 
+
+Each house you build has an address (a physical location). In other words if you want to tell someone where you live, you give them your address. 
+
+You can copy that reference as many times as you like but there is still just one house.
+
