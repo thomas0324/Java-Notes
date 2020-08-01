@@ -247,7 +247,7 @@ The this keyword is used to call the current class members (variables and method
 ![Annotation 2020-08-01 194825](https://user-images.githubusercontent.com/60317305/89101172-0673ea00-d430-11ea-9dd7-b3b51429163a.jpg)
 
        
-#### Static method and variables 
+### Static method and variables 
 
 Static methods are declared using a static modifier. 
 
@@ -268,7 +268,7 @@ Static variables are declared using the keyword static
 ![Annotation 2020-08-01 211316](https://user-images.githubusercontent.com/60317305/89102446-dc282980-d43b-11ea-9a00-244baa3b1554.jpg)
 
 
-#### Instance method and variables
+### Instance method and variables
 
 Instance methods belong to an instance of a class 
 
@@ -290,6 +290,6 @@ Instance variable dont use the static keyword
 
 ![Annotation 2020-08-01 212309](https://user-images.githubusercontent.com/60317305/89102573-4beae400-d43d-11ea-8a27-53e59a9c1b66.jpg)
 
-#### Static or Instance method ?
+### Static or Instance method ?
 
 ![Annotation 2020-08-01 203416](https://user-images.githubusercontent.com/60317305/89101846-6ff6f700-d436-11ea-8716-2318cdfbeadc.jpg)
