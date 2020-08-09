@@ -328,7 +328,7 @@ Noramlly, the attributes inside a class are private, which means we are not able
 
 4. Increased security of data 
 
-      public class Student {
+       public class Student {
             
             private String name ;
             private int age ;
@@ -341,7 +341,7 @@ Noramlly, the attributes inside a class are private, which means we are not able
             public String getName() {
                   return name ;
             }
-      }
+       }
             
 
     
