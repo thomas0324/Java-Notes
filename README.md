@@ -307,4 +307,41 @@ Composition allows to use different classes in a class. Consider a PC is made of
                   this.monitor = monitor ;
                   this.motherboard = motherboard ;
             }
+            
+            public Monitor getMonitor() {
+                  return monitor ;
+            }
       }
+
+Calling the method, Assume there is a method "Pixel" in monitor class 
+
+      myPC.getMonitor.pixel()  // Calling the method inside the monitor class 
+
+### Encapsulation
+Noramlly, the attributes inside a class are private, which means we are not able to access them outside the class. Encapsulation allows us to use get or set method to access to the private variables.
+
+1. Best control of class attributes and methods 
+
+2. Class attributes can be made read-only (if only using the get method) or write-only (if only using the set method)
+
+3. Flexible because we can change one part of the code withoud affecting other parts
+
+4. Increased security of data 
+
+      public class Student {
+            
+            private String name ;
+            private int age ;
+            
+            // using set method to change the variable
+            public void setName(String newName) {
+                  name = newName ;
+            }
+            
+            public String getName() {
+                  return name ;
+            }
+      }
+            
+
+    
