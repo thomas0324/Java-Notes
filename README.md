@@ -293,3 +293,18 @@ Instance variable dont use the static keyword
 ### Static or Instance method ?
 
 ![Annotation 2020-08-01 203416](https://user-images.githubusercontent.com/60317305/89101846-6ff6f700-d436-11ea-8716-2318cdfbeadc.jpg)
+
+### Composition
+Composition allows to use different classes in a class. Consider a PC is made of different components such as Case, Monitor and motherboard. 
+
+      public class PC {
+            private Case theCase ;
+            private Monitor monitor ;
+            private Motherboard motherboard ;
+
+            public PC(Case theCase, Monitor monitor, Motherboard motherboard) {
+                  this.theCase = theCase ;
+                  this.monitor = monitor ;
+                  this.motherboard = motherboard ;
+            }
+      }
